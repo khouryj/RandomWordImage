@@ -94,7 +94,7 @@ namespace RandomWordImageFinder
             int urlNum = rng.Next(0, urls.Count - 1);
             url = urls[urlNum];
 
-
+            Navigation.PushAsync(new WordPage());
         }
     }
 }

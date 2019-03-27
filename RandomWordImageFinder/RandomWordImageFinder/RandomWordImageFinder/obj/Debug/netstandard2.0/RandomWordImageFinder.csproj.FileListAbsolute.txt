@@ -10,3 +10,4 @@ C:\Users\josep\Documents\RandomWordImage\RandomWordImageFinder\RandomWordImageFi
 C:\Users\josep\Documents\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\josep\Documents\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\RandomWordImageFinder.dll
 C:\Users\josep\Documents\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\RandomWordImageFinder.pdb
+C:\Users\josep\Documents\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\WordPage.xaml.g.cs

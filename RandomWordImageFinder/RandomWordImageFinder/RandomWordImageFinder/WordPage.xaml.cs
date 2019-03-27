@@ -14,7 +14,17 @@ namespace RandomWordImageFinder
 	{
 		public WordPage ()
 		{
-			InitializeComponent ();
+            InitializeComponent();
+
+            lbl.Text = new MainPage().getWord();
+            BackgroundImage = new MainPage().getUrl();
 		}
+
+        /*
+         To do:
+         -Make it a separate image instead of background or fix blurriness
+         -Add more words
+         -More app detail
+        */
 	}
 }
