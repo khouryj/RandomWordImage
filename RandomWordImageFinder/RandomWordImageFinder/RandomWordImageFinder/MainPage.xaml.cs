@@ -15,7 +15,7 @@ namespace RandomWordImageFinder
         public static string url = "";
         
 
-        static string[] words = new string[] {"apple", "banana", "orange", "dog", "cat"};
+        static string[] words = new string[] {"apple", "banana", "orange", "dog", "cat", "niger", "weenies", "ricardo", "rainbow ranger", "magic", "death", "spongebob", "joe", "gonna", "cry", "michael tanczos", "gene waas", "lunch", "tank", "school", "hotel", "sexy", "noose", "knot", "limp", "work", "giant", "minecraft", "zombie", "skeleton", "creeper", "gaystation", "gabe newell", "bill gates", "five guys", "obama", "trump", "hillary", "bernie", "language", "code", "car", "truck", "road", "gas", "bomb", "golf", "football", "soccer", "tennis", "basketball", "baseball", "america", "russia", "germany", "united kingdom", "ireland", "italy", };
         static List<string> urls = new List<string>();
 
         public MainPage()

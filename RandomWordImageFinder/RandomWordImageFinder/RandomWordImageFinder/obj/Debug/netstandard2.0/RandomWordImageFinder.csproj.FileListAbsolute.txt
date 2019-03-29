@@ -11,3 +11,16 @@ C:\Users\josep\Documents\RandomWordImage\RandomWordImageFinder\RandomWordImageFi
 C:\Users\josep\Documents\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\RandomWordImageFinder.dll
 C:\Users\josep\Documents\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\RandomWordImageFinder.pdb
 C:\Users\josep\Documents\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\WordPage.xaml.g.cs
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\bin\Debug\netstandard2.0\RandomWordImageFinder.deps.json
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\bin\Debug\netstandard2.0\RandomWordImageFinder.dll
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\bin\Debug\netstandard2.0\RandomWordImageFinder.pdb
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\RandomWordImageFinder.csprojAssemblyReference.cache
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\WordPage.xaml.g.cs
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\RandomWordImageFinder.csproj.CoreCompileInputs.cache
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\RandomWordImageFinder.AssemblyInfoInputs.cache
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\RandomWordImageFinder.AssemblyInfo.cs
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\RandomWordImageFinder.dll
+C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder\obj\Debug\netstandard2.0\RandomWordImageFinder.pdb
