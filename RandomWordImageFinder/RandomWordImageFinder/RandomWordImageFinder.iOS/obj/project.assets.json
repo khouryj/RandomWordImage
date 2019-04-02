@@ -716,20 +716,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\beasl\\.nuget\\packages\\": {}
+    "C:\\Users\\josep\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\beasl\\Desktop\\RandomWordImage\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder.iOS\\RandomWordImageFinder.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\Documents\\RandomWordImage\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder.iOS\\RandomWordImageFinder.iOS.csproj",
       "projectName": "RandomWordImageFinder.iOS",
-      "projectPath": "C:\\Users\\beasl\\Desktop\\RandomWordImage\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder.iOS\\RandomWordImageFinder.iOS.csproj",
-      "packagesPath": "C:\\Users\\beasl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\beasl\\Desktop\\RandomWordImage\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder.iOS\\obj\\",
+      "projectPath": "C:\\Users\\josep\\Documents\\RandomWordImage\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder.iOS\\RandomWordImageFinder.iOS.csproj",
+      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\josep\\Documents\\RandomWordImage\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\beasl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -742,8 +742,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\beasl\\Desktop\\RandomWordImage\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder.csproj": {
-              "projectPath": "C:\\Users\\beasl\\Desktop\\RandomWordImage\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder.csproj"
+            "C:\\Users\\josep\\Documents\\RandomWordImage\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder.csproj": {
+              "projectPath": "C:\\Users\\josep\\Documents\\RandomWordImage\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder\\RandomWordImageFinder.csproj"
             }
           }
         }

@@ -15,7 +15,7 @@ namespace RandomWordImageFinder
         public static string url = "";
         
 
-        static string[] words = new string[] {"apple", "banana", "orange", "dog", "cat", "niger", "weenies", "ricardo", "rainbow ranger", "magic", "death", "spongebob", "joe", "gonna", "cry", "michael tanczos", "gene waas", "lunch", "tank", "school", "hotel", "sexy", "noose", "knot", "limp", "work", "giant", "minecraft", "zombie", "skeleton", "creeper", "gaystation", "gabe newell", "bill gates", "five guys", "obama", "trump", "hillary", "bernie", "language", "code", "car", "truck", "road", "gas", "bomb", "golf", "football", "soccer", "tennis", "basketball", "baseball", "america", "russia", "germany", "united kingdom", "ireland", "italy", };
+        static string[] words = new string[] {"apple", "banana", "orange", "dog", "cat", "weenies", "ricardo", "rainbow ranger", "magic", "spongebob", "joe", "cry", "gene waas", "lunch", "tank", "school", "hotel", "knot", "work", "giant", "minecraft", "zombie", "skeleton", "creeper", "gaystation", "gabe newell", "bill gates", "five guys", "obama", "trump", "hillary", "bernie", "language", "code", "car", "truck", "road", "gas", "golf", "football", "soccer", "tennis", "basketball", "baseball", "america", "russia", "germany", "united kingdom", "ireland", "italy", "forsenHobo", "xqcM"};
         static List<string> urls = new List<string>();
 
         public MainPage()
@@ -26,7 +26,7 @@ namespace RandomWordImageFinder
         public static void GetWord()
         {
             Random rng = new Random();
-            int x = rng.Next(0, words.Length - 1);
+            int x = rng.Next(0, words.Length);
             word = words[x];
         }
 
@@ -48,6 +48,9 @@ namespace RandomWordImageFinder
             string data = "";
 
             var request = (HttpWebRequest)WebRequest.Create(url);
+            request.Accept = "text/html, application/xhtml+xml, */*";
+            request.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko";
+
             var response = (HttpWebResponse)request.GetResponse();
 
             using(Stream dataStream = response.GetResponseStream())
@@ -69,19 +72,18 @@ namespace RandomWordImageFinder
         {
             var urls = new List<string>();
 
-            int ndx = html.IndexOf("class=\"images_table\"", StringComparison.Ordinal);
-            ndx = html.IndexOf("<img", ndx, StringComparison.Ordinal);
+            int ndx = html.IndexOf("\"ou\"", StringComparison.Ordinal);
 
             while (ndx >= 0)
             {
-                ndx = html.IndexOf("src=\"", ndx, StringComparison.Ordinal);
-                ndx += 5;
+                ndx = html.IndexOf("\"", ndx + 4, StringComparison.Ordinal);
+                ndx++;
                 int ndx2 = html.IndexOf("\"", ndx, StringComparison.Ordinal);
 
                 string url = html.Substring(ndx, ndx2 - ndx);
                 urls.Add(url);
 
-                ndx = html.IndexOf("<img", ndx, StringComparison.Ordinal);
+                ndx = html.IndexOf("\"ou\"", ndx2, StringComparison.Ordinal);
             }
 
             return urls;
@@ -91,7 +93,19 @@ namespace RandomWordImageFinder
         {
             urls = GetUrls(GetCode());
             Random rng = new Random();
-            int urlNum = rng.Next(0, urls.Count - 1);
+            int urlNum = 0;
+            if (getWord() == "xqcM")
+            {
+                urlNum = rng.Next(0, 10);
+            }
+            else if (getWord() == "forsenHobo")
+            {
+                urlNum = rng.Next(0, 10);
+            }
+            else
+            {
+                urlNum = rng.Next(0, urls.Count - 1);
+            }
             url = urls[urlNum];
 
             Navigation.PushAsync(new WordPage());

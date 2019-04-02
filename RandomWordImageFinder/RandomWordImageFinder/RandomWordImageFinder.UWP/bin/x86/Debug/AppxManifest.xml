@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="6aee8d40-593a-4f85-8601-152af3ce85ed" Publisher="CN=6d65a0f6-9171-44b8-985b-5f7be5fb533c" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="6aee8d40-593a-4f85-8601-152af3ce85ef" Publisher="CN=6d65a0f6-9171-44b8-985b-5f7be5fb533c" Version="1.0.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>RandomWordImageFinder.UWP</DisplayName>
-    <PublisherDisplayName>6d65a0f6-9171-44b8-985b-5f7be5fb533c</PublisherDisplayName>
+    <PublisherDisplayName>6d65a0f6-9171-44b8-985b-5f7be5fb533f</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>

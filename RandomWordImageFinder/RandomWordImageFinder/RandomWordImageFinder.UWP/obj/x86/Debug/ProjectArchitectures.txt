@@ -1,1 +1,1 @@
-C:\Users\beasl\Desktop\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder.UWP\RandomWordImageFinder.UWP.csproj;x86
+C:\Users\josep\Documents\RandomWordImage\RandomWordImageFinder\RandomWordImageFinder\RandomWordImageFinder.UWP\RandomWordImageFinder.UWP.csproj;x86
