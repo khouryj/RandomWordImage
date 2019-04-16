@@ -11,6 +11,8 @@
         <Label Text="Press The Button And This App Will Return A Random Word With An Image Of It" FontSize="30" HorizontalOptions="Center"/>
         <Label Text=" " FontSize="128"/>
         <Button Text="Generate" FontSize="36" HeightRequest="150" WidthRequest="400" HorizontalOptions="Center" BackgroundColor="Aqua" TextColor="Red" Clicked="Button_Clicked"/>
+        <Label Text="Or Type Your Own Word Here" FontSize="30" HorizontalOptions="Center" TextColor="Red"/>
+        <Entry x:Name="edt" Text="Enter Word" HorizontalOptions="Center" HeightRequest="100" WidthRequest="400" FontSize="20" BackgroundColor="LightCoral" TextColor="Teal"/>
     </StackLayout>
 
 </ContentPage>

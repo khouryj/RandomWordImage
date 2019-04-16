@@ -15,19 +15,28 @@ namespace RandomWordImageFinder
         public static string url = "";
         
 
-        static string[] words = new string[] {"apple", "banana", "orange", "dog", "cat", "weenies", "ricardo", "rainbow ranger", "magic", "spongebob", "joe", "cry", "gene waas", "lunch", "tank", "school", "hotel", "knot", "work", "giant", "minecraft", "zombie", "skeleton", "creeper", "gaystation", "gabe newell", "bill gates", "five guys", "obama", "trump", "hillary", "bernie", "language", "code", "car", "truck", "road", "gas", "golf", "football", "soccer", "tennis", "basketball", "baseball", "america", "russia", "germany", "united kingdom", "ireland", "italy", "forsenHobo", "xqcM"};
+        static string[] words = new string[] {"apple", "banana", "orange", "dog", "cat", "weenies", "ricardo milos", "rainbow ranger", "magic", "spongebob", "joe", "cry", "lunch", "tank", "school", "hotel", "knot", "work", "giant", "minecraft", "zombie", "skeleton", "creeper", "gaystation", "gabe newell", "bill gates", "five guys", "obama", "trump", "hillary", "bernie", "language", "code", "car", "truck", "road", "gas", "golf", "football", "soccer", "tennis", "basketball", "baseball", "america", "russia", "germany", "united kingdom", "ireland", "italy", "forsenHobo", "xqcM"};
         static List<string> urls = new List<string>();
+
+        static string h = "";
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        public static void GetWord()
+        public static void GetWord(string s)
         {
-            Random rng = new Random();
-            int x = rng.Next(0, words.Length);
-            word = words[x];
+            if (s == null)
+            {
+                Random rng = new Random();
+                int x = rng.Next(0, words.Length);
+                word = words[x];
+            }
+            else
+            {
+                word = s;
+            }
         }
 
         public string getWord()
@@ -40,9 +49,9 @@ namespace RandomWordImageFinder
             return url;
         }
 
-        private string GetCode()
+        private string GetCode(string s)
         {
-            GetWord();
+            GetWord(s);
 
             string url = "https://www.google.com/search?q=" + word + "&tbm=isch";
             string data = "";
@@ -91,7 +100,15 @@ namespace RandomWordImageFinder
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            urls = GetUrls(GetCode());
+            if (edt.Text == "" || edt.Text == " " || edt.Text == "Enter Word")
+            {
+                urls = GetUrls(GetCode(null));
+            }
+            else
+            {
+                h = edt.Text;
+                urls = GetUrls(GetCode(h));
+            }
             Random rng = new Random();
             int urlNum = 0;
             if (getWord() == "xqcM")
